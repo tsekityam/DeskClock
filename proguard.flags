@@ -1,10 +1,10 @@
--keepclassmembers class com.android.deskclock.DeskClock {
+-keepclassmembers class com.kytse.deskclock.DeskClock {
   *** clockButtonsOnClick(...);
 }
--keep class com.android.deskclock.timer.TimerListItem {
+-keep class com.kytse.deskclock.timer.TimerListItem {
   *** setAnimatedHeight(...);
 }
 
--keep class com.android.deskclock.widget.multiwaveview.* {
+-keep class com.kytse.deskclock.widget.multiwaveview.* {
   *;
 }
